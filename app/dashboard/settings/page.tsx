@@ -1,8 +1,11 @@
+import { UserProfile } from '@clerk/nextjs'
 import React from 'react'
 
 const Settings = () => {
   return (
-    <div>Settings</div>
+    <div className='flex max-w-full'>
+      <UserProfile  />
+    </div>
   )
 }
 
