@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button } from './ui/button'
 import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuLink } from "@/components/ui/navigation-menu";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 
 const Navbar = () => {
   return (
@@ -24,18 +23,7 @@ const Navbar = () => {
                     Pricing
                   </NavigationMenuLink>
                 </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <DropdownMenu>
-                    <DropdownMenuTrigger className="text-gray-600 dark:text-gray-300 hover:text-blue-600 transition-colors">
-                      Resources
-                    </DropdownMenuTrigger>
-                    <DropdownMenuContent>
-                      <DropdownMenuItem>Documentation</DropdownMenuItem>
-                      <DropdownMenuItem>Blog</DropdownMenuItem>
-                      <DropdownMenuItem>Support</DropdownMenuItem>
-                    </DropdownMenuContent>
-                  </DropdownMenu>
-                </NavigationMenuItem>
+               
               </NavigationMenuList>
             </NavigationMenu>
           </div>
